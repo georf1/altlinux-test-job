@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "altlinux-test-job"
+version = "0.1.0"
+description = ""
+authors = ["georf1 <rh26157@gmail.com>"]
+readme = "README.md"
+packages = [{include = "altlinux_test_job"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+argparse = "^1.4.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
